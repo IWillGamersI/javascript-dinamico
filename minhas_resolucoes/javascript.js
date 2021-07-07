@@ -21,6 +21,7 @@ function carrega_pagina(){
         msg.innerHTML = `Agora são ${hora}:${minuto} da manhã.<br> <strong>BOM DIA!!!</strong>`
         img.src="imagens/nascer_do_sol.jpg"
         document.body.style.background = '#e4c530'
+        
     }
     else if(hora >= 12 && hora < 18)
     {
